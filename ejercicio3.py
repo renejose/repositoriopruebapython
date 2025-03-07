@@ -1,7 +1,13 @@
-#creamos un programa que permite almacenar datos y luego lo exporta en csv
+# Inicializamos una lista vacía para almacenar los países
+paises = []
 
-import pandas as pd
-import numpy as np
-import seaborn as sns 
-import matplotlib as mtl
+while True:
+    pais = input("Ingrese el nombre de un país (o escriba 'salir' para terminar): ").strip()
+    
+    if pais.lower() == "salir":
+        break  # Sale del bucle si el usuario escribe "salir"
 
+    paises.append(pais)  # Agrega el país a la lista
+
+print("\nLista de países ingresados:")
+print(paises)
