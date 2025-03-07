@@ -1,8 +1,8 @@
-# Inicializamos una lista vacía para almacenar los países
+Peru# Inicializamos una lista vacía para almacenar los países
 paises = []
 
 while True:
-    pais = input("Ingrese el nombre de un país (o escriba 'salir' para terminar): ").strip()
+    pais = input("Ingrese el nombre de un país (escriba 'salir' para terminar): ").strip()
     
     if pais.lower() == "salir":
         break  # Sale del bucle si el usuario escribe "salir"
